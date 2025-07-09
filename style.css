@@ -1,0 +1,49 @@
+body{
+  background-color: hsl(218, 23%, 16%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+.advicewrapper{
+  background-color: hsl(215, 20%, 21%);
+  width: 19em;
+  height: 8em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  gap: 10px;
+  position: relative;
+  padding: 25px;
+  
+}
+.advice{
+  height: 3em;
+  color:white;
+}
+.divider{
+  width: 100%;
+}
+header{
+  
+  color:hsl(150, 100%, 66%);
+  font-size: 0.7em;
+}
+.dice{
+  width: 15px;
+
+}
+.icon-dice{
+  background-color:hsl(150, 100%, 66%);
+  width: 2em;
+  height: 2.2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  position: absolute;
+  bottom: -20px;
+  cursor: pointer;
+}
